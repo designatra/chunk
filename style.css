@@ -881,3 +881,11 @@ article.comment {
 .sharedaddy {
 	clear: both;
 }
+
+/* New Code */
+
+.menu {
+	width: 800px;
+	margin: 0 auto 15;
+}
+
