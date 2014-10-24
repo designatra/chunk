@@ -883,11 +883,8 @@ article.comment {
 
 .menu {
 	width: 800px;
-<<<<<<< Updated upstream
-	margin: 0 auto 15px;
-=======
-	margin: 0 auto 15;
+	margin: 0 0 15px;
 	background:#333;
->>>>>>> Stashed changes
+	padding:10px 0 0 0;
 }
 
