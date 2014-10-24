@@ -21,9 +21,6 @@ html {
 }
 body {
 	background-color: #fff;
-	background-image: -webkit-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
-	background-image:    -moz-linear-gradient( rgba(0,0,0,0.22), rgba(255,255,255,0) 80px );
-	background-repeat: repeat-x;
 	color: #555;
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-size: 13px;
@@ -886,7 +883,7 @@ article.comment {
 	margin: 0 auto 15px;
 }
 
-#header-image {
+#menu #header-image {
 	height: 300px;
 	width: 300px;
 	background: #FFF;
@@ -894,8 +891,9 @@ article.comment {
 }
 
 
-#menu m_bg {
-	background:#333;
+#menu #m_bg {
+	background: #333;
 	height: 36px;
-	width:100%;
+	width: 100%;
+	padding-top: 10px;
 }
