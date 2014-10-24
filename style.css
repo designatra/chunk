@@ -88,10 +88,9 @@ body {
 ----------------------------------------------- */
 #menu {
 	margin-bottom: 25px;
-	padding: 10px 0;
+	padding: 0 0 10px 0;
 	text-align: right;
 	width: 100%;
-	background:#333;
 }
 #menu img {
 	margin-bottom: 10px;
@@ -884,6 +883,11 @@ article.comment {
 
 .menu {
 	width: 800px;
+<<<<<<< Updated upstream
 	margin: 0 auto 15px;
+=======
+	margin: 0 auto 15;
+	background:#333;
+>>>>>>> Stashed changes
 }
 
