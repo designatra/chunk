@@ -900,6 +900,9 @@ article.comment {
 .hentry .main .comments {
 	font-family: Gill Sans;
 	text-decoration: none;
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase;
 }
 
 .hentry .main .comments a {
