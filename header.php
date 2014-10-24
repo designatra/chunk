@@ -14,7 +14,9 @@
 <body <?php body_class(); ?>>
 
 <div id="menu">
+	<div id="m_bg">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+    </div>
 		<?php
 			// Do we have a header image around?
 			if ( '' != get_header_image() ) :
