@@ -22,7 +22,7 @@ html {
 body {
 	background-color: #fff;
 	color: #555;
-	font-family: 'Gill Sans / Gill Sans MT', sans-serif;
+	font-family: Gill Sans, sans-serif;
 	font-size: 13px;
 	margin: 0;
 	text-align: center;
@@ -898,7 +898,7 @@ article.comment {
 }
 
 .hentry .main .comments {
-	font-family: 'Gill Sans / Gill Sans MT', sans-serif;
+	font-family: Gill Sans;
 	text-decoration: none;
 }
 	
