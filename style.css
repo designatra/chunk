@@ -38,9 +38,8 @@ body {
 	width: 800px;
 }
 #contents {
-	border-left: 1px solid #ccc;
 	height: auto;
-	margin-left: 199px;
+	width: 800px;
 	padding-bottom: 10px;
 }
 
@@ -184,9 +183,8 @@ body {
 .hentry .entry-meta {
 	font-family: 'Oswald', Helvetica, Arial, sans-serif;
 	font-size: 25px;
-	float: left;
-	margin: 35px 0 0 -199px;
-	padding: 0px;
+	float: right;
+	padding-top: 20px;
 	text-align: right;
 	text-transform: uppercase;
 	width: 190px;
