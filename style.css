@@ -892,3 +892,10 @@ article.comment {
 	background: #FFF;
 	margin: 0 auto;
 }
+
+
+#menu m_bg {
+	background:#333;
+	height: 36px;
+	width:100%;
+}
