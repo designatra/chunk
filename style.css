@@ -37,7 +37,6 @@ body {
 }
 #header {
 	min-height: 180px;
-	padding-top: 70px;
 	width: 800px;
 }
 #contents {
@@ -115,7 +114,7 @@ body {
 	padding-left: 0;
 }
 #menu li {
-	float: right;
+	float: left;
 	position: relative;
 }
 #menu ul ul {
