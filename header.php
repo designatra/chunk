@@ -13,14 +13,8 @@
 </head>
 <body <?php body_class(); ?>>
 
-<div id="container">
-
-	<div id="header">
-		<h1 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
-		<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
-	</div>
-
-	<div id="menu">
+<div id="menu">
+	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
 		<?php
 			// Do we have a header image around?
 			if ( '' != get_header_image() ) :
@@ -31,5 +25,14 @@
 			</a>
 		</div>
 		<?php endif; ?>
-		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+		
 	</div>
+
+<div id="container">
+
+	<div id="header">
+		<h1 id="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+		<h2 id="site-description"><?php bloginfo( 'description' ); ?></h2>
+	</div>
+
+	

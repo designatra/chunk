@@ -92,7 +92,8 @@ body {
 	margin-bottom: 25px;
 	padding: 10px;
 	text-align: right;
-	width: 800px;
+	width: 100%;
+	background:#333;
 }
 #menu img {
 	margin-bottom: 10px;
