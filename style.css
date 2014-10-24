@@ -901,4 +901,8 @@ article.comment {
 	font-family: Gill Sans;
 	text-decoration: none;
 }
+
+.hentry .main .comments a {
+	text-decoration: none;
+}
 	
