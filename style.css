@@ -887,3 +887,9 @@ article.comment {
 	margin: 0 auto 15px;
 }
 
+#header-image {
+	height: 300px;
+	width: 300px;
+	background: #FFF;
+	margin: 0 auto;
+}
