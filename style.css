@@ -22,7 +22,7 @@ html {
 body {
 	background-color: #fff;
 	color: #555;
-	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-family: 'Gill Sans / Gill Sans MT', sans-serif;
 	font-size: 13px;
 	margin: 0;
 	text-align: center;
@@ -197,7 +197,7 @@ body {
 }
 .hentry .entry-meta .date {
 	color: #000;
-	font-weight: bold;
+	font-weight: lighter;
 	margin: 0px;
 }
 .hentry .entry-meta .comments {
@@ -896,3 +896,9 @@ article.comment {
 	width: 100%;
 	padding-top: 10px;
 }
+
+.hentry .main .comments {
+	font-family: 'Gill Sans / Gill Sans MT', sans-serif;
+	text-decoration: none;
+}
+	
