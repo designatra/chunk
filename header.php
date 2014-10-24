@@ -14,7 +14,7 @@
 <body <?php body_class(); ?>>
 
 <div id="menu">
-	<div id="m_bg">
+	<div id="bg">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
     </div>
 		<?php
