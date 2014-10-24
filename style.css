@@ -288,10 +288,6 @@ a:hover {
 	color: #36bcab;
 }
 .entry-content a img {
-	border: 10px solid #ddd;
-	-webkit-box-sizing: border-box;
-	-moz-box-sizing:    border-box;
-	box-sizing:         border-box;
 	vertical-align: middle;
 }
 .entry-content a:hover img {
