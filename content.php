@@ -28,6 +28,7 @@ if ( false === $format )
 		<div class="comments"><?php comments_popup_link( __( 'Leave a comment', 'chunk' ), __( '1 Comment', 'chunk' ), __( '% Comments', 'chunk' ) ); ?></div>
 		<?php endif; ?>
 		</div>
+		<?php the_tags( '<span class="tag-links"><strong>' . __( 'Tagged', 'chunk' ) . '</strong> ', ', ', '</span>' ); ?>
         <div class="entry-meta">
 		<?php if ( ! is_page() ) : ?>
 		<div class="date"><a href="<?php the_permalink(); ?>"><?php chunk_date(); ?></a></div>
@@ -46,7 +47,6 @@ if ( false === $format )
 		<?php endif; ?>
 		<?php edit_post_link( __( 'Edit', 'chunk' ), '<span class="edit-link">', '</span>' ); ?>
 		</div>
-		<?php the_tags( '<span class="tag-links"><strong>' . __( 'Tagged', 'chunk' ) . '</strong> ', ', ', '</span>' ); ?>
 	</div>
 </div>
 
