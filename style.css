@@ -145,7 +145,7 @@ body {
 }
 #menu li:hover > a,
 #menu ul ul :hover > a {
-	color: #444;
+	color: #FFF;
 }
 #menu ul ul a:hover {
 	background: #f0f0f0;
