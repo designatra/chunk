@@ -111,6 +111,8 @@ body {
 #menu li {
 	float: left;
 	position: relative;
+	padding-top: 10px;
+	height: 36px;
 }
 #menu ul ul {
 	display: none;
@@ -884,7 +886,8 @@ article.comment {
 
 .menu {
 	width: 800px;
-	margin: 0 auto 15px;
+	height: 46px;
+	margin: 0 auto;
 }
 
 #menu #header-image {
@@ -897,9 +900,8 @@ article.comment {
 
 #menu #bg {
 	background: #333;
-	height: 36px;
+	height: 46px;
 	width: 100%;
-	padding-top: 10px;
 }
 
 .hentry .main .comments {
@@ -919,4 +921,26 @@ article.comment {
 	width: 600px;
 	float: left;
 }
+
+#menu li:first-child:hover {
+	background-color: #000;
+}
+
+#menu li:nth-child(2):hover {
+	background-color: #996666;
+}
+
+#menu li:nth-child(3):hover {
+	background-color: #FFCC99;
+}
+
+#menu li:nth-child(4):hover {
+	background-color: #99CCFF;
+}
+
+#menu li:nth-child(5):hover {
+	background-color: #FF6699;
+}
+
+
 	
