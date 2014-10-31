@@ -184,8 +184,7 @@ body {
 	font-family: Gill Sans, sans-serif;
 	font-size: 20px;
 	float: right;
-	padding-top: 20px;
-	margin-top: 53px;
+	padding-top: 10px;
 	text-align: right;
 	text-transform: uppercase;
 	width: 190px;
@@ -913,5 +912,10 @@ article.comment {
 
 .hentry .main .comments a {
 	text-decoration: none;
+}
+	
+.entry-content {
+	width: 600px;
+	float: left;
 }
 	
