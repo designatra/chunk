@@ -183,7 +183,6 @@ body {
 .hentry .entry-meta {
 	font-family: Gill Sans, sans-serif;
 	font-size: 20px;
-	font-weight: bold;
 	float: right;
 	padding-top: 20px;
 	text-align: right;
@@ -219,7 +218,7 @@ body {
 .hentry .entry-meta .cat-links {
 	color: #aaa;
 	font-family: 'Gill Sans', sans-serif;
-	font-weight: 600px;
+	font-weight: 600;
 	text-align: center;
 	padding-bottom: 8px;
 	border-bottom: 1px solid;
