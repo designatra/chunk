@@ -909,6 +909,7 @@ article.comment {
 	font-weight: 100;
 	text-transform: uppercase;
 	margin-bottom: 50px;
+	margin: 40px 0;
 }
 
 .hentry .main .comments a {
