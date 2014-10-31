@@ -93,8 +93,7 @@ body {
 	margin-bottom: 10px;
 }
 #menu a {
-	color: #666;
-	font-family: 'Oswald', Helvetica, Arial, sans-serif;
+	color: #CCC;
 	font-size: 18px;
 	margin: 0 10px;
 	text-decoration: none;
@@ -111,8 +110,13 @@ body {
 #menu li {
 	float: left;
 	position: relative;
-	padding-top: 10px;
-	height: 36px;
+	padding: 14px 10px 0;
+	height: 32px;
+	-webkit-transition: background 0.5s linear;
+  	-moz-transition: background 0.5s linear;
+  	-ms-transition: background 0.5s linear;
+  	-o-transition: background 0.5s linear;
+  	transition: background 0.5s linear;
 }
 #menu ul ul {
 	display: none;
@@ -152,7 +156,7 @@ body {
 #menu ul li.current_page_item > a,
 #menu ul li.current_page_ancestor > a,
 #menu ul li.current-menu-item > a {
-	color: #111;
+	color: #FFF;
 }
 #menu ul:after {
 	clear: both;
