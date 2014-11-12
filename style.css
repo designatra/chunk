@@ -955,4 +955,14 @@ article.comment {
 	background:#00FF94;
 	float:right;
 }
-	
+
+#fb_scl_nav {
+	display: block;
+ 	width: 12px;
+ 	height: 12px;
+ 	background:url(IMG/Facebook_icon.png) top no-repeat;
+}
+
+#fb_scl_nav:hover {
+ background-position: 0 0;
+}
