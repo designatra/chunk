@@ -15,8 +15,17 @@
 
 <div id="menu">
 	<div id="bg">
-        <div style="background-color:#fff; width:20px; height:20px; float:left;"></div>
-	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+    	<div id="mn_cntnr">
+		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+            <div class="scl_menu_nav">
+            <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+            <li></li>
+            </ul>
+            </div>
+         </div>
     </div>
 		<?php
 			// Do we have a header image around?

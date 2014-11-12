@@ -888,10 +888,13 @@ article.comment {
 
 /* New Code */
 
-.menu {
+#mn_cntnr{
 	width: 800px;
 	height: 46px;
 	margin: 0 auto;
+}
+.menu {
+	float:left;
 }
 
 #menu #header-image {
@@ -946,5 +949,10 @@ article.comment {
 	background-color: #FF6699;
 }
 
-
+.scl_menu_nav{
+	height:46px;
+	width:80px;
+	background:#00FF94;
+	float:right;
+}
 	
