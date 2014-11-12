@@ -19,7 +19,7 @@
 		<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
             <div class="scl_menu_nav">
             <ul>
-            <li><a href="https://www.facebook.com/profile.php?id=100008287428524&fref=ts" id="fb_scl_nav"><span></span></a></li>
+            <li><a href="https://www.facebook.com/profile.php?id=100008287428524&fref=ts" id="fb_scl_nav"></a></li>
             <li></li>
             <li></li>
             <li></li>
