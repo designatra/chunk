@@ -951,8 +951,6 @@ article.comment {
 
 .scl_menu_nav{
 	height:46px;
-	width:80px;
-	background:#00FF94;
 	float:right;
 }
 
@@ -977,3 +975,10 @@ article.comment {
 #fb_scl_nav:hover {
  background-position: bottom;
 }
+
+#fb_scl_nav li {
+	float: left;
+	padding: 10px 0;
+	width: 45px;
+}
+	
