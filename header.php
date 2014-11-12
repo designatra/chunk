@@ -16,6 +16,7 @@
 <div id="menu">
 	<div id="bg">
 	<?php wp_nav_menu( array( 'theme_location' => 'primary' ) ); ?>
+    <div style="background-color:#fff; width:20px; height:20px; float:left;"></div>
     </div>
 		<?php
 			// Do we have a header image around?
