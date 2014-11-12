@@ -955,28 +955,28 @@ article.comment {
 }
 
 #fb_scl_nav{
- display: block;
- width: 12px;
- height: 12px;
- background:url(IMG/Facebook_icon.png) top no-repeat;
+ 	display: block;
+ 	width: 12px;
+ 	height: 12px;
+ 	background:url(IMG/Facebook_icon.png) top no-repeat;
 }
 
 #fb_scl_nav:hover {
- background-position: 0 0;
+ 	background-position: 0 0;
 }
 
 #fb_scl_nav {
- display: block;
+ 	display: block;
  	width: 25px;
  	height: 25px;
  	background:url(IMG/Facebook_icon.png) top no-repeat;
 }
 
 #fb_scl_nav:hover {
- background-position: bottom;
+ 	background-position: bottom;
 }
 
-#fb_scl_nav li {
+.scl_menu_nav li {
 	float: left;
 	padding: 10px 0;
 	width: 45px;
